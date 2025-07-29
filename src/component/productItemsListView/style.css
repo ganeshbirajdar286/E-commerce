@@ -1,0 +1,33 @@
+.producItems {
+  margin: 0;
+  padding: 0;
+  position: relative; /* Ensure relative for absolute children */
+}
+
+.producItems .title {
+  line-height: 20px;
+}
+
+.producItems .action {
+  transition: top 0.3s ease, opacity 0.3s ease;
+}
+
+.producItems .action button {
+  width: 45px;
+  height: 30px;
+  min-width: 45px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  margin-bottom: 7px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.producItems .action button:hover {
+  background-color: #ff5252;
+  color: white;
+}
+
+.producItems .action button svg {
+  pointer-events: none; /* Keeps hover behavior on button, not SVG */
+}

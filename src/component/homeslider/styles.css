@@ -1,0 +1,49 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,.swiper-button-next{display: flex ; justify-content: center; align-items: center; background-color: white; border-radius: 50%;width: 60px; height: 60px;}
+.swiper-button-prev:hover,.swiper-button-next:hover{ background-color: #FF5252;}
+
+.swiper-slide img:hover{
+  scale: 1 !important;
+}

@@ -1,0 +1,10 @@
+.sidebar .scroll{max-height: 180px;overflow-y: scroll; overflow-x: hidden;}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+.range-slider{height: 5px !important;}
+.range-slider .range-slider__thumb{width: 14px !important; height: 14px !important;}
+.range-slider .range-slider__thumb,.range-slider .range-slider__range{
+  background-color: #ff5252 !important;
+}

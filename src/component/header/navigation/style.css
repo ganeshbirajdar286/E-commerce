@@ -1,0 +1,4 @@
+.categoryPanel button {text-transform: capitalize !important;}
+.nav li .submenu {display: none;}
+.nav  li:hover .submenu{ opacity: 1 !important; display: block;}
+

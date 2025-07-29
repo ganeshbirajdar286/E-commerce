@@ -1,0 +1,10 @@
+.producItems .title{line-height: 20px;}
+.action button{width: 45px !important; height: 30px !important; min-width: 45px !important; border-radius: 50% !important; background-color: white !important; color:black !important ; margin-bottom: 7px !important;}
+.action button:hover{background-color: #ff5252 !important; color: white !important;}
+.producItems .action button svg{pointer-events: none !important;}
+
+
+.producItems {
+  margin: 0 !important;
+  padding: 0 !important;
+}
