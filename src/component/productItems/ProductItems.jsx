@@ -1,7 +1,7 @@
 
 import React from 'react'
 import "../productItems/style1.css"
-import { Link } from 'react-router'  // Change to 'react-router-dom' if using newer versions
+import { Link } from 'react-router' 
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
@@ -16,7 +16,7 @@ function ProductItems() {
         <>
             <div className='producItems overflow-hidden rounded-2xl border-2 border-[#FF5252] w-[300px] '>
                 <div className='group imgWrapper relative overflow-visible gap-6'>
-                    <Link to="#">
+                    <Link to="/product/:id">
                         <div className='img h-[350px] w-full relative '>
                             <img 
                                 src="https://serviceapi.spicezgold.com/download/1742463096955_hbhb1.jpg" 
